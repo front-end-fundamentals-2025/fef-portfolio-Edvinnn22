@@ -1,0 +1,74 @@
+/* General Reset */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: white;
+  position: sticky;
+  height: 100px;
+}
+/* Navigation */
+nav {
+  display: flex;
+  position: sticky;
+  background-color: #333;
+  height: 100%;
+  overflow: hidden;
+}
+nav a {
+  color: white;
+  padding: 14px 16px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.navigation-left {
+  transform: translate(0%, 40%);
+}
+.navigation-middle {
+  position: sticky;
+  left: 45%;
+  transform: translate(0%, 40%);
+}
+.navigation-right {
+  position: sticky;
+  left: 100%;
+  transform: translate(0%, 40%);
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+.active-link {
+    color: green;
+}
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
