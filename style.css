@@ -68,6 +68,12 @@ h1 {
   padding-right: 2rem;
 }
 
+a:link {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 /* unvisited link */
 a:hover {
   text-decoration: underline;
