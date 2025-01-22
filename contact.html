@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My contacts</title>
+    <link rel="stylesheet" href="/CSS/contact.css" />
+    <link rel="stylesheet" href="/CSS/nav.css" />
+    <link rel="stylesheet" href="/CSS/footer.css" />
+  </head>
+  <body>
+    <header>
+      <!--navigation bar-->
+      <nav>
+        <div class="navigation-left">
+          <a href="index.html"><h1>Edvin Hultqvist</h1></a>
+        </div>
+        <div class="navigation-right">
+          <a class="active-link" href="contact.html">Contact Me</a>
+        </div>
+      </nav>
+    </header>
+    <!-- main -->
+    <main>
+      <div class="form-container">
+        <form>
+          <h2>Contact Me</h2>
+
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your Name"
+            required
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          />
+
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Your Message"
+            required
+          ></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+    <!--footer-->
+    <footer>
+      <p>&copy; 2025 Edvin Hultqvist. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
