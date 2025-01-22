@@ -1,3 +1,4 @@
+/* body */
 body {
   margin: 0;
   padding: 0;
@@ -8,7 +9,7 @@ body {
   display: flex;
 }
 img {
-  width: 40%;
+  width: 40%; 
   margin: 1rem;
   flex-grow: 1;
   object-fit: cover;
@@ -21,51 +22,6 @@ img {
   max-height: 100%;
   background: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-header {
-  background-color: white;
-  position: sticky;
-  height: 100px;
-}
-
-/* Navigation */
-nav {
-  display: flex;
-  position: sticky;
-  background-color: #333;
-  height: 100%;
-  overflow: hidden;
-}
-nav a {
-  color: white;
-  padding: 14px 16px;
-  font-size: 20px;
-  text-decoration: none;
-}
-.navigation-left {
-  transform: translate(0%, 0%);
-  color: white;
-  padding-left: 3rem;
-}
-
-h1 {
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold;
-  font-size: 20px;
-  font-style: italic;
-}
-
-.navigation-middle {
-  position: sticky;
-  left: 45%;
-  transform: translate(0%, 40%);
-}
-.navigation-right {
-  position: sticky;
-  left: 100%;
-  transform: translate(0%, 40%);
-  padding-right: 2rem;
 }
 
 a:link {
@@ -112,17 +68,4 @@ a:hover {
 
 .contact-method a:hover {
   text-decoration: underline;
-}
-
-/* Footer */
-footer {
-  background: #333;
-  color: #fff;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  bottom: 0;
-  width: 100%;
-  height: 5vw;
-  position: relative;
 }

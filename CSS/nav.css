@@ -1,0 +1,44 @@
+  /* Navigation */
+header {
+    background-color: white;
+    position: sticky;
+    height: 100px;
+  }
+
+  nav {
+    display: flex;
+    position: sticky;
+    background-color: #333;
+    height: 100%;
+    overflow: hidden;
+  } 
+  nav a {
+    color: white;
+    padding: 14px 16px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .navigation-left {
+    transform: translate(0%, 0%);
+    color: white;
+    padding-left: 3rem;
+  }
+  
+  h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+  }
+  
+  .navigation-middle {
+    position: sticky;
+    left: 45%;
+    transform: translate(0%, 40%);
+  }
+  .navigation-right {
+    position: sticky;
+    left: 100%;
+    transform: translate(0%, 40%);
+    padding-right: 2rem;
+  }
