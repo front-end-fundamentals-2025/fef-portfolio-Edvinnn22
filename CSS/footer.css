@@ -4,12 +4,12 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #333;
+  background-color: #1A2D42;
   color: white;
   padding: 1rem;
   text-align: center;
 }
 
-.footer p {
+.footer p { 
   margin: 0.5rem;
 }

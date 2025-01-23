@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: #1A2D42;
   padding: 0.5rem 1rem;
   color: white;
 }
@@ -27,6 +27,6 @@
 }
 
 .navbar .menu a:hover {
-  background-color: #575757;
+  background-color: #2E4156;
   border-radius: 5px;
 }

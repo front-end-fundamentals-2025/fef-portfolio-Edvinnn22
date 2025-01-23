@@ -1,16 +1,16 @@
 /* contact page body */
 
 .form-container {
-  background: aliceblue;
+  background: #D4D8DD;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin: 5vw;
+  margin: 2.5vw;
   padding: 10px;
 }
-
+ 
 form h2 {
   margin-bottom: 15px;
-  color: #333;
+  color: #2E4156;
   text-align: center;
 }
 
@@ -18,7 +18,7 @@ form label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
-  color: #555;
+  color: #2E4156;
 }
 
 form input,
@@ -26,19 +26,19 @@ form textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #2E4156;
   border-radius: 5px;
   box-sizing: border-box;
 }
 
 form input:focus,
 form textarea:focus {
-  border-color: #007bff;
+  border-color: #2E4156;
   outline: none;
 }
 
 form button {
-  background-color: #007bff;
+  background-color: #1A2D42;
   color: white;
   border: none;
   padding: 10px 15px;
@@ -49,5 +49,5 @@ form button {
 }
 
 form button:hover {
-  background-color: #0056b3;
+  background-color: #2E4156;
 }

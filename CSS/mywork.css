@@ -2,18 +2,19 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
-  background-color: #2196f3;
+  background-color: #2E4156;
+  
   padding: 1rem;
 }
 
-.container > div {
-  background-color: white;
+.container > a {
+  background-color: #D4D8DD;
   padding: 1rem;
   height: 5rem;
+  text-decoration: none;
+  color: black;
 }
 
-.container > div:hover {
-    background-color: #a9a9a9;
-  }
-
-
+.container > a:hover {
+  background-color: #AAB7B7;
+}
