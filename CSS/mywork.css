@@ -1,20 +1,18 @@
 .container {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-  background-color: #2E4156;
-  
-  padding: 1rem;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .container > a {
-  background-color: #D4D8DD;
+  background-color: #d4d8dd;
   padding: 1rem;
-  height: 5rem;
   text-decoration: none;
   color: black;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 2.5vw;
 }
 
 .container > a:hover {
-  background-color: #AAB7B7;
+  background-color: #aab7b7;
 }
