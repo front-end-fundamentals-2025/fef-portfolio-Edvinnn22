@@ -5,10 +5,8 @@
 }
 
 .container {
-  height: 90vh;
+  max-height: fit-content;
 }
- 
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -23,6 +21,14 @@
   nav a {
     margin: 5px 0;
   }
+
+  .footer-bottom {
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+  .footer-bottom > p {
+    padding-bottom: 1rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -31,7 +37,18 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  
+  .footer-container {
+    flex-direction: column;
+    max-height: fit-content;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+  .footer-bottom > p {
+    padding-bottom: 1rem;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

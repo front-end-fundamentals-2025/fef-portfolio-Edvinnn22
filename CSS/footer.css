@@ -1,17 +1,124 @@
-/* Footer */
 .footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  background-color: #1a2d42;
+  background-color: #2e4156;
   color: white;
-  text-align: center;
-  
 }
 
-.footer p {
-  margin: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-top: 0.5rem;
+.footer-container {
+  display: flex;
+  padding: 2rem;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
+  max-height: fit-content;
+}
+/* footer about section */
+.footer-section-about {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-section-about > h3 {
+  font-weight: bold;
+  font-size: x-large;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.footer-section-about > p {
+  line-height: 1.6;
+}
+
+/* footer socials section */
+.footer-section-socials {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-section-socials > h3 {
+  font-weight: bold;
+  font-size: x-large;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.fa {
+  padding-right: 0.3rem;
+  width: 1rem;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+.social-links {
+  list-style: none;
+}
+
+.social-links > a {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.social-links > li {
+  margin-bottom: 1rem;
+}
+
+.social-links > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+/* footer contact information section */
+.footer-section-contact-information {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-section-contact-information > h3 {
+  font-weight: bold;
+  font-size: x-large;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.contact-info {
+  list-style: none;
+}
+
+.contact-info > li {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+/* footer bottom */
+.footer-bottom {
+  display: flex;
+  background-color: #1a2d42;
+  height: 10vh;
+  align-items: center;
+  padding-left: 2rem;
+  justify-content: flex-start;
+}
+
+.footer-links {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.footer-links > li {
+  margin-right: 2rem;
+  list-style: none;
+}
+
+.footer-links > li > a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+.footer-links > li > a:hover {
+  background-color: #2e4156;
+  border-radius: 5px;
 }

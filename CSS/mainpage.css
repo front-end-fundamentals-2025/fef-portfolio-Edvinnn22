@@ -18,11 +18,17 @@
 
 #img {
   display: flex;
+  justify-content: space-between;
+
 }
 img {
-  width: 40%;
-  margin: 2rem;
+  max-width: 40%;
+  max-width: 40%;
+  margin-left: 5rem;
+  margin-right: 5rem;
+
   flex-grow: 1;
   object-fit: cover;
   border-radius: 2.5%;
+  
 }
