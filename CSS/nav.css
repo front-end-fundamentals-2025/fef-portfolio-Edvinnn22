@@ -5,8 +5,11 @@
   justify-content: space-between;
   align-items: center;
   background-color: #1A2D42;
-  padding: 0.5rem;
   color: white;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .navbar .logo {

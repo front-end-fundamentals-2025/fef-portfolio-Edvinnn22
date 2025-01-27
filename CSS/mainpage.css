@@ -11,7 +11,7 @@
   background-color: #d4d8dd;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin: 2.5vw;
+  margin: 2rem;
   height: fit-content;
   width: fit-content;
 }
@@ -21,7 +21,7 @@
 }
 img {
   width: 40%;
-  margin: 2.5vw;
+  margin: 2rem;
   flex-grow: 1;
   object-fit: cover;
   border-radius: 2.5%;
