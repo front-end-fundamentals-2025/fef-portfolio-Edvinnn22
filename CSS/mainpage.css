@@ -3,7 +3,7 @@
 .main-container {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  height: 90vh;
+  height: fit-content;
 }
 
 #about {
@@ -18,17 +18,13 @@
 
 #img {
   display: flex;
-  justify-content: space-between;
-
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
 }
 img {
   max-width: 40%;
-  max-width: 40%;
-  margin-left: 5rem;
-  margin-right: 5rem;
-
   flex-grow: 1;
   object-fit: cover;
   border-radius: 2.5%;
-  
 }

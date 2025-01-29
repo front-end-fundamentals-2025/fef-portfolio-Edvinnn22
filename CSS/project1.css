@@ -19,7 +19,6 @@
   color: #1a2d42;
   margin: 2rem;
   border-radius: 8px;
-
 }
 
 .project-details .content {
@@ -35,6 +34,7 @@
   margin: 15px 0;
   font-size: 1em;
   color: #2e4156;
+  line-height: 1.6;
 }
 
 .project-details a {

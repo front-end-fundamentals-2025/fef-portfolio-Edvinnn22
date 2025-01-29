@@ -6,7 +6,7 @@
 .container > a {
   background-color: #d4d8dd;
   text-decoration: none;
-  color: black;
+  color: black; 
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin: 2rem;
