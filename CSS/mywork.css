@@ -6,7 +6,6 @@
 .container > a {
   background-color: #d4d8dd;
   text-decoration: none;
-  color: black; 
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin: 2rem;
@@ -21,12 +20,12 @@
 }
 
 .content > h3 {
-  color: black;
+  color: #1a2d42;
   font-size: 2em;
 }
 
 .content > p {
-  color: black;
+  color: #2e4156;
   padding-top: 1rem;
   font-size: 1em;
 }

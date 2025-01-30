@@ -3,41 +3,48 @@
   grid-template-columns: repeat(1, 1fr);
 }
 
-.project-details {
+.image {
+  display: flex;
+  margin: 2rem;
+}
+
+.image > img {
+  max-width: 40%;
+  flex-grow: 1;
+  object-fit: cover;
+  border-radius: 2.5%;
+}
+
+.content {
+  padding: 2rem;
+  height: fit-content;
+  width: fit-content;
   background-color: #d4d8dd;
-  padding: 1rem;
   text-decoration: none;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin: 2rem;
-  width: fit-content;
 }
 
-.project-details img {
-  width: 100%;
-  height: auto;
-  color: #1a2d42;
-  margin: 2rem;
-  border-radius: 8px;
-}
-
-.project-details .content {
-  padding: 2rem;
-}
-
-.project-details h2 {
+.content > h2 {
   font-size: 2em;
   color: #1a2d42;
 }
 
-.project-details p {
+.content > h3 {
+  padding-top: 1rem;
+  font-size: 1em;
+  color: #1a2d42;
+}
+
+.content > p {
   margin: 15px 0;
   font-size: 1em;
   color: #2e4156;
   line-height: 1.6;
 }
 
-.project-details a {
+.content > a {
   display: inline-block;
   margin-top: 1rem;
   padding: 1rem 1.5rem;
@@ -49,6 +56,7 @@
   transition: background-color 0.3s ease;
 }
 
-.project-details a:hover {
+.content > a:hover {
   background-color: #2e4156;
+  transition: background-color 0.3s;
 }
