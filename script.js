@@ -11,8 +11,7 @@ navLinks.forEach((link) => {
 
 // Click event on the image
 const projectImage = document.querySelector(".image img");
-if (projectImage) {
   projectImage.addEventListener("click", function () {
     alert("You clicked the project image!");
   });
-}
+
